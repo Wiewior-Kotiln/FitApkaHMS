@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "147992361563",
+    "firebase_url": "https://fitapka-7363b.firebaseio.com",
+    "project_id": "fitapka-7363b",
+    "storage_bucket": "fitapka-7363b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147992361563:android:f4fd211e59ce61aa46dd7e",
+        "android_client_info": {
+          "package_name": "com.WiseBSoftware.fitapkahms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147992361563-2aabqc2uhggjolviv3oldm5b1mii04i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFfrd9n-BofksqnXh_pSepPyZtC-5MK5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147992361563-2aabqc2uhggjolviv3oldm5b1mii04i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
