@@ -32,6 +32,11 @@ class LoginActivity: AppCompatActivity(){
                 .addOnCompleteListener(this){
                     Toast.makeText(this, "User logged in succesfully", Toast.LENGTH_SHORT).show()
                     return@addOnCompleteListener
+                    //here should be something that will make the user proceed to the user panel instantly after he
+                    //he registers the account
+                    //Step 2: make a new activity for user panel
+                    //Step 3: try to download data from the datebase and display it on the user panel interface
+                    //Step 4: hms all the way XD
                 }
                 .addOnFailureListener{
                     Toast.makeText(this, "Creating user process failed", Toast.LENGTH_SHORT).show()
