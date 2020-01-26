@@ -16,10 +16,9 @@
         android:layout_marginEnd="8dp"
         android:background="#FFFFFF"
         android:ems="10"
-        android:hint="Username"
-        android:paddingLeft="20dp"
+        android:hint="@string/username_registration"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:paddingLeft="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -33,7 +32,7 @@
         android:layout_marginEnd="8dp"
         android:background="#FFFFFF"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/email_registration"
         android:inputType="textEmailAddress"
         android:paddingLeft="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +48,7 @@
         android:layout_marginEnd="8dp"
         android:background="#FFFFFF"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password_registration"
         android:inputType="textPassword"
         android:paddingLeft="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +60,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="REGISTER"
+        android:text="@string/button_registration"
         app:layout_constraintEnd_toEndOf="@+id/password_registration"
         app:layout_constraintStart_toStartOf="@+id/password_registration"
         app:layout_constraintTop_toBottomOf="@+id/password_registration" />
@@ -72,9 +71,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:background="#00FFFFFF"
-        android:text="Already have an account?"
+        android:text="@string/alreadyHaveAnAccount_registration"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="@+id/button_registration"
         app:layout_constraintStart_toStartOf="@+id/button_registration"
         app:layout_constraintTop_toBottomOf="@+id/button_registration" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
