@@ -50,11 +50,12 @@ class LoginActivity: AppCompatActivity(){
                 }
 
         }
+
+        }
         //Go back to registration page
         goBackToRegistration_login.setOnClickListener{
-            val goBack = Intent(this, MainActivity::class.java)
-            startActivity(goBack)
-        }
+            val goBack2 = Intent(this, MainActivity::class.java)
+            startActivity(goBack2)
     }
 
 }}
