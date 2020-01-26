@@ -12,4 +12,6 @@
     <string name="password_registration">Password</string>
     <string name="email_registration">Email</string>
     <string name="username_registration">Username</string>
+    <string name="test_button">Test Button 1</string>
+    <string name="test_button2">Test Button 2</string>
 </resources>
