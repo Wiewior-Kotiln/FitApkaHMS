@@ -38,12 +38,14 @@ class UserInterface: AppCompatActivity(), BlankFragment.OnFragmentInteractionLis
     test_button2.setOnClickListener{
         //swaping fragment and updating useEmail address
         val newUserEmail = testemail.text.toString()
+        //swapingfragment
             supportFragmentManager
             .beginTransaction()
             .replace(R.id.container1, blankFragment2)
             .addToBackStack(blankFragment2.toString())
             .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
                 .commit()
+        //UpdatingEmailAddress
             emailUpdate(newUserEmail)
     }
     test_button3.setOnClickListener{
@@ -72,6 +74,23 @@ class UserInterface: AppCompatActivity(), BlankFragment.OnFragmentInteractionLis
             }
             else { Toast.makeText(this,"Coś poszło nie tak :<", Toast.LENGTH_SHORT).show()}
         }
+    }
+    private fun loadUserProfile(){
+        val user = FirebaseAuth.getInstance().currentUser
+        user?.let{
+            //there should be some instuctions which will allow the app to download the data from the
+            //datebase.
+        }
+    }
+    //sync user profile data
+    private fun syncUserProfile(){
+        //that function will sync data with the db every minute/30 seconds.
+        //The idea is that the app will collect the steps amount/burned callories/ and then
+        //upload it to the datebase onChange
+    }
+    //Logout function
+    private fun logout(){
+
     }
     //There should be some more functions which will allow user to:
     //Logout onClick
