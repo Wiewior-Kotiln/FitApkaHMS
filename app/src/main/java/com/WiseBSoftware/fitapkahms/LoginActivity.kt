@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class LoginActivity: AppCompatActivity(){
 
-    //Important info why there is auth not the FirebaseAuth.getInstance()
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,11 +40,6 @@ class LoginActivity: AppCompatActivity(){
                     //ifLogin is notSuccessfull display a error message
                     } else{
 
-                    // done here should be something that will make the user proceed to the user panel instantly after he
-                    //he registers the account
-                    //done Step 2: make a new activity for user panel
-                    //Step 3: try to download data from the datebase and display it on the user panel interface
-                    //Step 4: hms all the way XD
                         Toast.makeText(this, "Something went wrong", Toast.LENGTH_SHORT).show()
 
                 }

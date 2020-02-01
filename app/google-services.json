@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "147992361563-u04n84ncapd63qp3usg03hp30b12ile4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.WiseBSoftware.fitapkahms",
+            "certificate_hash": "c67362efcf3695352df4d22c27388e378856652c"
+          }
+        },
+        {
           "client_id": "147992361563-2aabqc2uhggjolviv3oldm5b1mii04i5.apps.googleusercontent.com",
           "client_type": 3
         }
